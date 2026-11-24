@@ -1,0 +1,53 @@
+# ===== Python 运行产物 =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# ===== 模型权重 =====
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.engine
+
+# ===== LUT 二进制产物 (生成文件, 板端用 .h 版本) =====
+*.bin
+
+# ===== 实验数据 / 生成图片 =====
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+*.exr
+*.raw
+*.yuv
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.npy
+*.npz
+*.h5
+*.pkl
+*.csv
+*.log
+
+# 文档配图白名单（README/文档需要截图时放 docs/ 目录）
+!docs/**/*.png
+!docs/**/*.jpg
+
+# ===== 输出/实验目录 =====
+output/
+results/
+runs/
+logs/
+
+# ===== 临时文件 =====
+~$*
+*.tmp
+.DS_Store
